@@ -9,3 +9,8 @@ h1 {
     margin: 0 auto;
     border: 3px solid #dadde1;
 }
+
+img {
+width:300px;
+height: auto;
+}
