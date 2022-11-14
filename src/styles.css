@@ -11,11 +11,13 @@ margin: 30px auto;
 h1 {
     margin: 0 auto;
     border: 3px solid #dadde1;
+    border-radius: 5px;
 }
 
 img {
 width:300px;
 height: auto;
+border-radius: 15px;
 }
 
 p {
@@ -28,6 +30,15 @@ a {
 }
 
 button {
+    display: block;
     margin: 15px auto;
-    border: 40px 40px;
+    border: none;
+    font-size: 20px;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+button:hover {
+    opacity: 0.9;
+    cursor: pointer;
 }
